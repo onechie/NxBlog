@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import BlogPagination from "@/components/home/blog-pagination";
 import { fetchPublicBlogs } from "./lib/actions/blog";
 import { Suspense } from "react";

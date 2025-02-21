@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import AddBlogModal from "@/components/dashboard/add-blog-modal";
 import BlogPagination from "@/components/dashboard/blog-pagination";
 import { fetchUserBlogs } from "../lib/actions/blog";
