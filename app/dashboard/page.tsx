@@ -6,7 +6,7 @@ import Loading from "@/components/ui/loading";
 export default async function Dashboard() {
   const blogs = fetchUserBlogs();
   return (
-    <div className="h-auto mx-auto w-auto max-w-7xl px-5 my-5 bg-gray-50">
+    <div className="h-auto mx-auto w-auto max-w-7xl px-5 xl:px-0 my-5 bg-gray-50">
       <AddBlogModal></AddBlogModal>
       <Suspense fallback={<Loading></Loading>}>
         <BlogPagination blogsPromise={blogs}></BlogPagination>

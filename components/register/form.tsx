@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default async function RegisterForm() {
   return (
-    <form className="flex flex-col p-5 gap-5 bg-white shadow-lg w-96">
+    <form className="flex flex-col p-5 gap-5 bg-white shadow-lg w-80 sm:w-96">
       <h1 className="text-center text-2xl mt-2 mb-3 text-gray-800">Register</h1>
       <Input label="Full name" name="full_name" type="text"></Input>
       <Input label="Email" name="email" type="email"></Input>

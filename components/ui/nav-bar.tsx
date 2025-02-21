@@ -6,7 +6,7 @@ export default async function Navbar({ title }: { title: string }) {
   const isAuth = await isAuthenticated();
   return (
     <div className="bg-white w-full">
-      <div className="h-16 mx-auto max-w-7xl flex justify-between items-center">
+      <div className="h-16 mx-auto max-w-7xl flex justify-between items-center px-5 xl:px-0">
         <Link
           className="text-gray-800 font-bold text-2xl hover:scale-105 duration-300 ease-out "
           href={"/"}

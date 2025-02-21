@@ -9,7 +9,7 @@ export default async function Home() {
   return (
     <div>
       <Navbar title={"Blogs"}></Navbar>
-      <div className="h-auto mx-auto w-auto max-w-7xl my-5 bg-gray-50">
+      <div className="h-auto mx-auto w-auto max-w-7xl my-5 bg-gray-50 px-5 xl:px-0">
         <Suspense fallback={<Loading></Loading>}>
           <BlogPagination blogsPromise={blogs}></BlogPagination>
         </Suspense>

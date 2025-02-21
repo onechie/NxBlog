@@ -34,7 +34,7 @@ export default function BlogPagination({
 
   return (
     <div className="mx-auto w-auto max-w-7xl">
-      <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 xl:px-0 mb-5">
+      <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 xl:px-0 mb-5">
         {currentBlogs?.map((blog) => (
           <BlogCard
             key={blog.id}
